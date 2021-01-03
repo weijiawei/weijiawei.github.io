@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://weijiawei.github.io/2021/01/02/%E6%B5%8B%E8%AF%95/</loc>
+    
+    <lastmod>2021-01-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://weijiawei.github.io/categories/index.html</loc>
+    
+    <lastmod>2021-01-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://weijiawei.github.io/tags/index.html</loc>
+    
+    <lastmod>2021-01-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://weijiawei.github.io/404.html</loc>
+    
+    <lastmod>2021-01-02</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>https://weijiawei.github.io/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://weijiawei.github.io/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://weijiawei.github.io/categories/%E8%B5%84%E6%BA%90/</loc>
+    <lastmod>2021-01-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
