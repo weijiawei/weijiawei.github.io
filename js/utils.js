@@ -235,8 +235,8 @@ NexT.utils = {
       var link = element.querySelector('a.nav-link');
       // TOC item animation navigate.
       link.addEventListener('click', event => {
-        event.preventDefault();
-        //TODO fix bug 此处解析不解码，中文标题会出BUG
+        // event.preventDefault();
+        // TODO fix bug 此处解析不解码，中文标题不会跳转
         // var target = document.getElementById(event.currentTarget.getAttribute('href').replace('#', ''));
         var target = document.getElementById(decodeURI(event.currentTarget.getAttribute('href')).replace('#', ''));
         var offset = target.getBoundingClientRect().top + window.scrollY;
@@ -247,7 +247,9 @@ NexT.utils = {
           scrollTop: offset + 10
         });
       });
-      return document.getElementById(link.getAttribute('href').replace('#', ''));
+      // TODO fix bug 此处解析不解码，中文标题不会渲染CSS
+      // return document.getElementById(link.getAttribute('href').replace('#', ''));
+      return document.getElementById(decodeURI(link.getAttribute('href')).replace('#', ''));
     });
 
     var tocElement = document.querySelector('.post-toc-wrap');
